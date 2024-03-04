@@ -1,0 +1,23 @@
+{
+    "name": "danilocgsilva/dev-center",
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilva\\DevCenter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Silva",
+            "email": "danilocgsilva@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:danilocgsilva/ec2-wrapper.git"
+        }
+    ],
+    "require": {
+        "danilocgsilva/ec2_wrapper": "^0.0.1"
+    }
+}
