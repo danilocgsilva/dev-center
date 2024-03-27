@@ -1,5 +1,5 @@
 CREATE TABLE `projects` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    `project_name` VARCHAR(192) NOT NULL
+    `project_name` VARCHAR(192) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
