@@ -10,9 +10,8 @@ abstract class MigrationsAbstract implements MigrationInterface
 
     public function getMigrationScript(): string
     {
-        $filename = __DIR__ ."../../resources/migrations_scripts/01_create_nodes_tables.sql";
         $handle = fopen($this->migrationScriptPath, "r");
-        $contents = fread($handle, filesize($filename));
+        $contents = fread($handle, filesize($this->migrationScriptPath));
         fclose($handle);
         return $contents;
     }

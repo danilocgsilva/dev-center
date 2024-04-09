@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Danilocgsilva\DevCenter\Entities;
 
-class Project
+class Project implements EntityInterface
 {
     /**
      * @var string
